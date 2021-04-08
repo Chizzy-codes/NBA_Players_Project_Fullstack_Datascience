@@ -1,0 +1,9 @@
+pandas
+sqlalchemy
+pyodbc
+MySQLdb
+selenium
+matplotlib
+seaborn
+plotly
+beautifulsoup
