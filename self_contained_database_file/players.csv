@@ -62,7 +62,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Avery Bradley","Houston Rockets",30,Guard,1.91,82,Texas-Austin,USA,10,6.7,2.2,1.8,4.5,1990,2010,19,20,22.47745401715962
 "Tony Bradley","Oklahoma City Thunder",23,Center-Forward,2.08,112,"North Carolina",USA,3,7.1,5.8,0.9,13.2,1998,2017,28,20,25.88757396449704
 "Jarrell Brantley","Utah Jazz",24,Forward,1.96,113,"College of Charleston",USA,1,1.9,1,0.3,8.6,1996,2019,50,23,29.41482715535194
-"Ignas Brazdeikis",N/A,22,Foward,1.98,100,Michigan,Canada,1,0.4,0.8,0.2,2.8,1999,2019,47,21,25.507601265177023
+"Ignas Brazdeikis",N/A,22,Forward,1.98,100,Michigan,Canada,1,0.4,0.8,0.2,2.8,1999,2019,47,21,25.507601265177023
 "Mikal Bridges","Phoenix Suns",24,Forward,1.98,95,Villanova,USA,2,13.1,4.4,2.2,9.6,1996,2018,10,22,24.232221201918172
 "Miles Bridges","Charlotte Hornets",23,Forward,1.98,102,"Michigan State",USA,2,11.5,6,2.1,9.8,1998,2018,12,21,26.017753290480563
 "Amida Brimah","Indiana Pacers",27,Center,2.08,104,Connecticut,USA,0,0,0,0,0,1994,Undrafted,Undrafted,27,24.038461538461537
@@ -81,7 +81,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Trey Burke","Dallas Mavericks",28,Guard,1.83,84,Michigan,USA,7,6.5,0.9,1.3,8.1,1992,2013,9,21,25.082863029651524
 "Alec Burks","New York Knicks",29,Guard,1.98,97,Colorado,USA,9,12.6,4.5,2.2,11.1,1991,2011,12,20,24.742373227221712
 "Jimmy Butler","Miami Heat",31,Forward,2.01,104,Marquette,USA,9,21.4,7.2,7.3,18.7,1989,2011,30,22,25.741937080765336
-"Bruno Caboclo",N/A,25,Foward,2.06,99,Pinheiros,Brazil,6,2.8,2.3,0.2,11.3,1995,2014,20,19,23.329248751060423
+"Bruno Caboclo",N/A,25,Forward,2.06,99,Pinheiros,Brazil,6,2.8,2.3,0.2,11.3,1995,2014,20,19,23.329248751060423
 "Devontae Cacok","Los Angeles Lakers",24,Forward,2.01,109,"North Carolina-Wilmington",USA,1,2.2,1.8,0.1,13.2,1996,Undrafted,Undrafted,23,26.979530209648285
 "Kentavious Caldwell-Pope","Los Angeles Lakers",28,Guard,1.96,93,Georgia,USA,7,9.7,2.7,1.6,6.7,1993,2013,8,21,24.20866305705956
 "Facundo Campazzo","Denver Nuggets",30,Guard,1.78,88,Murcia,Argentina,0,5.2,1.7,2.8,6.5,1991,Undrafted,Undrafted,30,27.77427092538821
@@ -95,8 +95,8 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Alex Caruso","Los Angeles Lakers",27,Guard,1.93,84,"Texas A&M",USA,3,5.8,2.9,2.5,8.3,1994,Undrafted,Undrafted,24,22.550940964858118
 "Willie Cauley-Stein","Dallas Mavericks",27,Center,2.13,109,Kentucky,USA,5,5.5,4.3,0.7,8.7,1993,2015,6,22,24.02521545548723
 "Chris Chiozza","Brooklyn Nets",25,Guard,1.8,79,Florida,USA,2,4,1.1,3,9.3,1995,Undrafted,Undrafted,23,24.382716049382715
-"Marquese Chriss",N/A,23,Foward,2.06,109,Washington,USA,4,6.5,6.5,1,11,1997,2016,8,19,25.68573852389481
-"Gary Clark",N/A,26,Foward,1.98,102,Cincinnati,USA,2,3.2,3.1,0.8,4.4,1994,Undrafted,Undrafted,24,26.017753290480563
+"Marquese Chriss",N/A,23,Forward,2.06,109,Washington,USA,4,6.5,6.5,1,11,1997,2016,8,19,25.68573852389481
+"Gary Clark",N/A,26,Forward,1.98,102,Cincinnati,USA,2,3.2,3.1,0.8,4.4,1994,Undrafted,Undrafted,24,26.017753290480563
 "Brandon Clarke","Memphis Grizzlies",24,Forward,2.03,98,Gonzaga,Canada,1,11,5.5,1.7,10.8,1996,2019,21,23,23.78121284185494
 "Jordan Clarkson","Utah Jazz",28,Guard,1.93,88,Missouri,USA,6,17.5,4,2.1,11.3,1992,2014,46,22,23.624795296518027
 "Nicolas Claxton","Brooklyn Nets",22,Forward-Center,2.11,98,Georgia,USA,1,6.6,5,1.1,10.5,1999,2019,31,21,22.012084184991355
@@ -141,7 +141,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Anthony Edwards","Minnesota Timberwolves",19,Guard,1.93,102,Georgia,USA,0,18.3,4.3,2.7,8.5,2001,2020,1,19,27.383285457327716
 "Carsen Edwards","Boston Celtics",23,Guard,1.8,91,Purdue,USA,1,4.3,0.9,0.4,7.1,1998,2019,33,22,28.086419753086417
 "CJ Elleby","Portland Trail Blazers",20,Forward-Guard,1.98,91,"Washington State",USA,0,2.4,1,0.2,4.1,2000,2020,46,20,23.21191715131109
-"Henry Ellenson",N/A,24,Foward-Center,2.08,109,Marquette,USA,4,7.5,6,2.5,10.6,1997,2016,18,20,25.194156804733726
+"Henry Ellenson",N/A,24,Forward-Center,2.08,109,Marquette,USA,4,7.5,6,2.5,10.6,1997,2016,18,20,25.194156804733726
 "Wayne Ellington","Detroit Pistons",33,Guard,1.93,94,"North Carolina",USA,11,9.8,1.9,1.4,7.7,1987,2009,28,22,25.235576794007894
 "Joel Embiid","Philadelphia 76ers",27,Center-Forward,2.13,127,Kansas,Cameroon,4,30,11.1,3.1,20.8,1994,2014,3,23,27.99268222795301
 "James Ennis III","Orlando Magic",30,Forward,1.98,98,"California State-Long Beach",USA,6,8.6,4.1,1.5,7.7,1990,2013,50,24,24.997449239873482
@@ -154,7 +154,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Bruno Fernando","Atlanta Hawks",22,Forward-Center,2.06,109,Maryland,Angola,1,1.3,2.4,0.3,6.8,1998,2019,34,21,25.68573852389481
 "Yogi Ferrell","LA Clippers",27,Guard,1.83,81,Indiana,USA,4,9,2.3,4,9.5,1993,Undrafted,Undrafted,23,24.187046492878256
 "Dorian Finney-Smith","Dallas Mavericks",27,Forward,2.01,100,Florida,USA,4,9.4,5.5,1.5,7,1993,Undrafted,Undrafted,23,24.751862577658976
-"Malik Fitts",N/A,23,Foward,2.03,104,"St. Mary's College",USA,0,1,1,0,2.9,1997,Undrafted,Undrafted,23,25.237205464825653
+"Malik Fitts",N/A,23,Forward,2.03,104,"St. Mary's College",USA,0,1,1,0,2.9,1997,Undrafted,Undrafted,23,25.237205464825653
 "Malachi Flynn","Toronto Raptors",22,Guard,1.85,79,"San Diego State",USA,0,5.7,2,2.6,7.6,1998,2020,29,22,23.08254200146092
 "Bryn Forbes","Milwaukee Bucks",27,Guard,1.88,93,"Michigan State",USA,4,9.6,1.5,0.6,7.1,1993,Undrafted,Undrafted,23,26.312811226799457
 "Trent Forrest","Utah Jazz",22,Guard,1.93,95,"Florida State",USA,0,1,0.4,1.1,5.9,1998,Undrafted,Undrafted,22,25.50404037692287
@@ -291,7 +291,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Saben Lee","Detroit Pistons",21,Guard,1.88,83,Vanderbilt,USA,0,5.4,2.1,3.4,9.7,1999,2020,38,21,23.48347668628339
 "Alex Len","Washington Wizards",27,Center,2.13,113,Maryland,Ukraine,7,6.6,3.8,0.8,9.6,1993,2013,5,20,24.906874738257404
 "Kawhi Leonard","LA Clippers",29,Forward,2.01,102,"San Diego State",USA,9,25.7,6.7,5.1,17.2,1991,2011,15,20,25.246899829212154
-"Meyers Leonard",N/A,29,Foward-Center,2.13,118,Illinois,USA,8,3.3,2.3,0.7,6.7,1992,2012,11,21,26.008948841720123
+"Meyers Leonard",N/A,29,Forward-Center,2.13,118,Illinois,USA,8,3.3,2.3,0.7,6.7,1992,2012,11,21,26.008948841720123
 "Kira Lewis Jr.","New Orleans Pelicans",20,Guard,1.85,77,Alabama,USA,0,6.5,1.2,2.3,6.8,2001,2020,13,20,22.498173849525198
 "Damian Lillard","Portland Trail Blazers",30,Guard,1.88,88,"Weber State",USA,8,28.6,4.2,7.6,15.4,1990,2012,6,22,24.898143956541425
 "Nassir Little","Portland Trail Blazers",21,Forward-Guard,1.96,100,"North Carolina",USA,1,5,2.9,0.5,7.6,2000,2019,25,20,26.030820491461892
@@ -303,7 +303,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Timothe Luwawu-Cabarrot","Brooklyn Nets",25,Guard-Forward,2.01,100,"Mega Basket",France,4,6.7,2.4,1.2,4.5,1995,2016,24,21,24.751862577658976
 "Trey Lyles","San Antonio Spurs",25,Forward,2.06,106,Kentucky,Canada,5,5,3.7,0.6,9.8,1995,2015,12,20,24.97879159204449
 "Will Magnay",N/A,22,Center,2.08,106,Australia,Australia,0,0,0,0,-17.1,1998,Undrafted,Undrafted,22,24.500739644970412
-"Thon Maker",N/A,24,Foward-Center,2.13,100,"Athlete Institute Prep","South Sudan",4,3.8,2.3,0.5,13.4,1997,2016,10,20,22.04148206925434
+"Thon Maker",N/A,24,Forward-Center,2.13,100,"Athlete Institute Prep","South Sudan",4,3.8,2.3,0.5,13.4,1997,2016,10,20,22.04148206925434
 "Theo Maledon","Oklahoma City Thunder",19,Guard,1.93,79,Asvel,France,0,9.7,3.5,3.4,6.1,2001,2020,34,19,21.20862305028323
 "Karim Mane",N/A,20,Guard,1.91,86,Vanier,Senegal,0,1.1,1.4,0.4,1.7,2000,Undrafted,Undrafted,20,23.573915188728378
 "Terance Mann","LA Clippers",24,Guard-Forward,1.96,98,"Florida State",USA,1,6.6,3.7,1.7,8.6,1996,2019,48,23,25.510204081632654
@@ -338,7 +338,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Sam Merrill","Milwaukee Bucks",24,Guard,1.93,93,"Utah State",USA,0,2.9,1,0.7,8.9,1996,2020,60,24,24.967113211092915
 "Chimezie Metu","Sacramento Kings",24,Forward-Center,2.06,102,"Southern California",USA,2,4.9,2.6,0.7,8.8,1997,2018,49,22,24.036195682910737
 "Khris Middleton","Milwaukee Bucks",29,Forward,2.01,101,"Texas A&M",USA,8,20.3,6,5.6,12.4,1991,2012,39,21,24.999381203435565
-"Darius Miller",N/A,31,Foward,1.98,102,Kentucky,USA,5,4.1,1.3,1.2,11.5,1990,2012,46,26,26.017753290480563
+"Darius Miller",N/A,31,Forward,1.98,102,Kentucky,USA,5,4.1,1.3,1.2,11.5,1990,2012,46,26,26.017753290480563
 "Patty Mills","San Antonio Spurs",32,Guard,1.85,82,"St.Mary's College of California",Australia,11,11.7,1.7,2.4,8.5,1988,2009,55,21,23.959094229364496
 "Paul Millsap","Denver Nuggets",36,Forward,2.01,117,"Louisiana Tech",USA,14,9,4.8,1.7,9.5,1985,2006,47,22,28.959679215861
 "Shake Milton","Philadelphia 76ers",24,Guard-Forward,1.96,93,"Southern Methodist",USA,2,13.4,2.3,3,9.8,1996,2018,54,22,24.20866305705956
@@ -419,7 +419,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "JJ Redick","Dallas Mavericks",36,Guard,1.91,91,Duke,USA,14,8.2,1.6,1.2,7.3,1984,2006,11,22,24.94449165318933
 "Paul Reed","Philadelphia 76ers",21,Forward,2.06,95,DePaul,USA,0,2.6,1.8,0.3,9.4,1999,2020,58,21,22.38665284192667
 "Naz Reid","Minnesota Timberwolves",21,Center-Forward,2.06,120,"Louisiana State",USA,1,11.2,4.6,1.1,11.7,1999,Undrafted,Undrafted,20,28.27787727401263
-"Cameron Reynolds",N/A,26,Foward,2.01,102,Tulane,USA,1,0.7,0,0,5.7,1995,Undrafted,Undrafted,25,25.246899829212154
+"Cameron Reynolds",N/A,26,Forward,2.01,102,Tulane,USA,1,0.7,0,0,5.7,1995,Undrafted,Undrafted,25,25.246899829212154
 "Nick Richards","Charlotte Hornets",23,Center,2.13,111,Kentucky,Jamaica,0,0.9,0.6,0.1,4.1,1997,2020,42,23,24.466045096872318
 "Josh Richardson","Dallas Mavericks",27,Guard,1.96,91,Tennessee,USA,5,12.3,3.5,2.8,7.1,1993,2015,40,22,23.688046647230323
 "Grant Riller","Charlotte Hornets",24,Guard,1.88,86,"College of Charleston",USA,0,2.3,0,0.8,17.3,1997,2020,56,24,24.332277048438208
@@ -429,7 +429,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Jerome Robinson",N/A,24,Guard,1.93,86,"Boston College",USA,2,4.9,2.2,1.5,3.1,1997,2018,13,22,23.087868130688072
 "Justin Robinson","Oklahoma City Thunder",23,Guard,1.85,88,"Virginia Tech",USA,1,2.6,0.9,1.1,3.3,1997,2019,,22,25.712198685171657
 "Mitchell Robinson","New York Knicks",23,Center-Forward,2.13,109,"Western Kentucky",USA,2,8.3,8.1,0.5,10.4,1998,2018,36,21,24.02521545548723
-"Glenn Robinson III",N/A,27,Foward,1.98,101,Michigan,USA,6,5.3,2,0.9,5.7,1994,2014,40,21,25.762677277828793
+"Glenn Robinson III",N/A,27,Forward,1.98,101,Michigan,USA,6,5.3,2,0.9,5.7,1994,2014,40,21,25.762677277828793
 "Isaiah Roby","Oklahoma City Thunder",23,Forward,2.03,104,Nebraska-Lincoln,USA,1,8.8,5.6,1.9,8.5,1998,2019,45,22,25.237205464825653
 "Rajon Rondo","LA Clippers",35,Guard,1.85,82,Kentucky,USA,14,4.6,2.1,3.9,10.2,1986,2006,21,21,23.959094229364496
 "Derrick Rose","New York Knicks",32,Guard,1.88,91,Memphis,USA,11,13.7,2.2,4,12.5,1988,2008,1,21,25.746944318696244
@@ -459,7 +459,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Jalen Smith","Phoenix Suns",21,Forward-Center,2.08,98,Maryland,USA,0,1.3,1,0.1,3,2000,2020,10,21,22.65162721893491
 "Dennis Smith Jr.","Detroit Pistons",23,Guard,1.88,93,"North Carolina State",USA,3,6.7,2.4,3.3,9.3,1997,2017,9,20,26.312811226799457
 "Tony Snell","Atlanta Hawks",29,Guard,1.98,97,"New Mexico",USA,7,5.5,2.4,1.3,6.4,1991,2013,20,22,24.742373227221712
-"Ray Spalding",N/A,24,Foward,2.06,102,Louisville,USA,1,2,2,0,-2.6,1997,2018,56,23,24.036195682910737
+"Ray Spalding",N/A,24,Forward,2.06,102,Louisville,USA,1,2,2,0,-2.6,1997,2018,56,23,24.036195682910737
 "Cassius Stanley","Indiana Pacers",21,Guard,1.96,86,Duke,USA,0,1.1,0.7,0,-0.5,1999,2020,54,21,22.38650562265723
 "Lamar Stevens","Cleveland Cavaliers",23,Forward,1.98,104,"Penn State",USA,0,4.2,2.5,0.6,7.4,1997,Undrafted,Undrafted,23,26.527905315784103
 "Isaiah Stewart","Detroit Pistons",19,Forward-Center,2.03,113,Washington,USA,0,7.3,6.6,0.9,11,2001,2020,16,19,27.421194399281717
@@ -495,10 +495,10 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Jarred Vanderbilt","Minnesota Timberwolves",22,Forward,2.06,97,Kentucky,USA,2,5.2,5.4,1.3,10.5,1999,2018,41,20,22.857950796493544
 "Devin Vassell","San Antonio Spurs",20,Guard-Forward,1.96,91,"Florida State",USA,0,5.1,2.6,0.9,7.5,2000,2020,11,20,23.688046647230323
 "Gabe Vincent","Miami Heat",24,Guard,1.91,91,"California-Santa Barbara",USA,1,5,1.1,1.3,4.8,1996,Undrafted,Undrafted,23,24.94449165318933
-"Noah Vonleh",N/A,25,Foward,2.08,117,Indiana,USA,6,0,0.3,0.3,-9.4,1995,2014,9,19,27.043269230769226
+"Noah Vonleh",N/A,25,Forward,2.08,117,Indiana,USA,6,0,0.3,0.3,-9.4,1995,2014,9,19,27.043269230769226
 "Nikola Vucevic","Chicago Bulls",30,Center,2.11,118,"Southern California",Montenegro,9,23.9,11.3,3.7,17,1990,2011,16,21,26.50434626356102
 "Dean Wade","Cleveland Cavaliers",24,Forward-Center,2.06,103,"Kansas State",USA,1,5.2,3.1,1.1,8.4,1996,Undrafted,Undrafted,23,24.271844660194176
-"Moritz Wagner",N/A,23,Foward-Center,2.11,111,Michigan,Germany,2,5.6,2.7,1.1,8.7,1997,2018,25,21,24.932054536061635
+"Moritz Wagner",N/A,23,Forward-Center,2.11,111,Michigan,Germany,2,5.6,2.7,1.1,8.7,1997,2018,25,21,24.932054536061635
 "Kemba Walker","Boston Celtics",30,Guard,1.83,83,Connecticut,USA,9,18.2,3.9,5,12,1990,2011,9,21,24.78425751739377
 "Lonnie Walker IV","San Antonio Spurs",22,Guard-Forward,1.93,93,Miami,USA,2,11,2.6,1.7,6.2,1998,2018,18,20,24.967113211092915
 "John Wall","Houston Rockets",30,Guard,1.91,95,Kentucky,USA,9,20.4,3.2,6.7,11.2,1990,2010,1,21,26.040952824758094
@@ -513,7 +513,7 @@ name,team,age,position,height,weight,last_attended,country,experience,ppg,rpg,ap
 "Coby White","Chicago Bulls",21,Guard,1.96,88,"North Carolina",USA,1,14.5,4.1,4.5,8.6,2000,2019,7,20,22.907122032486466
 "Derrick White","San Antonio Spurs",26,Guard,1.93,86,Colorado,USA,3,15.4,2.9,3.6,8.9,1994,2017,29,23,23.087868130688072
 "Hassan Whiteside","Sacramento Kings",31,Center,2.13,120,Marshall,USA,8,8.1,6,0.6,12.3,1989,2010,33,23,26.44977848310521
-"Greg Whittington",N/A,28,Foward,2.03,95,"Georgetown ",USA,0,0,0,0,-7.1,1993,Undrafted,Undrafted,28,23.053216530369586
+"Greg Whittington",N/A,28,Forward,2.03,95,"Georgetown ",USA,0,0,0,0,-7.1,1993,Undrafted,Undrafted,28,23.053216530369586
 "Andrew Wiggins","Golden State Warriors",26,Forward,2.01,89,Kansas,Canada,6,18.1,4.8,2.3,9.7,1995,2014,1,20,22.02915769411649
 "Grant Williams","Boston Celtics",22,Forward,1.98,107,Tennessee,USA,1,4.4,2.9,1,3.5,1998,2019,22,21,27.293133353739414
 "Kenrich Williams","Oklahoma City Thunder",26,Guard-Forward,1.98,95,TCU,USA,2,7.6,4.2,2.2,9,1994,Undrafted,Undrafted,24,24.232221201918172

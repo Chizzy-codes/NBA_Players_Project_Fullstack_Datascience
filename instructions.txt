@@ -1,0 +1,50 @@
+1) You need to have a my sql database installed on your computer
+2) Airlow needs to be installed and set up on your computer
+3) Copy the dag.py script to the appropriate dag folder on your computer
+4) Download chrome driver on your computer
+5) Edit the nba_dag.py script and edit your database credentials and also update the CHROME_PATH variable to the path you stored the chrome driver on your computer.
+6) Your can run the jupyter notebook from the beginning to the end if you do not want to use airflow. You would need to re-run it though everytime you want to update your nba database.
+7) copy the python files to your airflow "dag" folder on your system
+8) Initialize the airflow db, start the web server and scheduler
+9) turn on the nba DAG
+
+10) you would also need to install MySQL
+11) To install MySQL on WSL (Ubuntu 20.04), which is what i am using as i am running my airflow using WSL2 rather than docker:
+
+Open your WSL terminal (ie. Ubuntu 20.04).
+
+Update your Ubuntu packages: sudo apt update
+
+Once the packages have updated, install MySQL with: sudo apt install mysql-server
+
+Confirm installation and get the version number: mysql --version
+
+You may also want to run the included security script. 
+
+This changes some of the less secure default options for things like remote root logins and sample users. To run the security script:
+
+Start a MySQL server: sudo /etc/init.d/mysql start
+Start the security script prompts: sudo mysql_secure_installation
+The first prompt will ask whether you’d like to set up the Validate Password Plugin, which can be used to test the strength of your MySQL password. 
+
+You will then set a password for the MySQL root user, 
+decide whether or not to remove anonymous users, 
+decide whether to allow the root user to login both locally and remotely, 
+decide whether to remove the test database, and, lastly, 
+decide whether to reload the privilege tables immediately.
+
+To open the MySQL prompt, enter: sudo mysql
+
+
+12) Also, you would need to replace YOUR_SYSTEM_USER with the username you have)
+
+$ sudo mysql -u root # I had to use "sudo" since is new installation
+
+mysql> USE mysql;
+mysql> CREATE USER 'YOUR_SYSTEM_USER'@'localhost' IDENTIFIED BY 'YOUR_PASSWD';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'YOUR_SYSTEM_USER'@'localhost';
+mysql> FLUSH PRIVILEGES;
+mysql> exit;
+
+$ sudo service mysql restart
+
