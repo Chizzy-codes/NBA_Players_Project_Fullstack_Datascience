@@ -27,7 +27,7 @@ from data_etl import etl
 
 # instantiate project specific variables
 # chrome driver path; change this to the path of the chrome driver exe on your system
-CHROME_PATH = '/usr/bin/chromedriver'
+CHROME_PATH = os.environ.get("CHROMEDRIVER_PATH")
 
 # database details; edit this
 DATABASE = {'host': 'localhost',

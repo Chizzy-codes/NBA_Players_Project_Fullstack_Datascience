@@ -47,20 +47,20 @@ def get_players_list(driver_path):
     position_dict = {'F': 'Foward', 'G': 'Guard', 'C': 'Center', 'C-F': 'Center-Forward', 'G-F': 'Guard-Forward', 'F-G': 'Foward-Guard', 'F-C': 'Foward-Center'}
 
     
-    # Download html page
+    # Download html page (if you are working on your local machine)
     # set up driver
 
     chrome_options = Options()
     # Required parameters
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument('--no-gpu')
     chrome_options.add_argument('--disable-setuid-sandbox')
-    chrome_options.add_argument('--single-process')
-    chrome_options.add_argument('--window-size=1920,1080')
 
     # chrome directory 
     #"/usr/bin/chrome-linux/chrome"
+    chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 
     driver = webdriver.Chrome(options=chrome_options, executable_path=driver_path)
 
@@ -276,13 +276,13 @@ def updated_players_list(driver_path):
     # Required parameters
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument('--no-gpu')
     chrome_options.add_argument('--disable-setuid-sandbox')
-    chrome_options.add_argument('--single-process')
-    chrome_options.add_argument('--window-size=1920,1080')
 
     # chrome directory 
     #"/usr/bin/chrome-linux/chrome"
+    chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 
     driver = webdriver.Chrome(options=chrome_options, executable_path=driver_path)
 

@@ -3,7 +3,8 @@ import datetime
 import os
 import sqlite3
 import pandas as pd
-import MySQLdb
+import MySQLdb, psycopg2
+from sqlalchemy_utils import create_database, database_exists
 import sqlalchemy as sal
 
 
@@ -75,7 +76,8 @@ def etl(my_database):
     data = pd.DataFrame(query, columns=['name', 'player_link', 'team', 'team_link', 'age', 'number', 'position',
                                         'height', 'weight', 'last_attended', 'country', 'birth_date', 'experience', 'draft', 'ppg', 'rpg', 'apg', 'pie'])
 
-    
+    data.country = data.country.apply(lambda x: 'United States' if x == 'USA' else x)
+
     
     # remove the excess spaces in the team names
     data.team = data.team.apply(remove_spaces)
@@ -115,7 +117,7 @@ def etl(my_database):
 
     # drop birth_date and draft
 
-    data.drop(['birth_date', 'draft', 'player_link', 'team_link', 'number'], axis=1, inplace=True)
+    data.drop(['draft', 'player_link', 'team_link', 'number'], axis=1, inplace=True)
 
 
 
@@ -124,19 +126,26 @@ def etl(my_database):
     # It is important to note which database your are making use of and make necessary adjustments to the create engine code
     # Make sure your database server is running first. Restart if needed. Connect to mysql database 
 
-    #create engine
-    engine = sal.create_engine(f'mysql+mysqldb://{username}:{password}@{host}') # add the port if your are not connecting via localhost
+    # create engine MySQL
+    #engine = sal.create_engine(f'mysql+mysqldb://{username}:{password}@{host}') # add the port if your are not connecting via localhost
+
+    # create engine PostgreSQL
+    engine = sal.create_engine(f'postgresql+psycopg2://{p_username}:{p_password}@{host}/nba')
+
+    # Create a new database MySQL
+    #engine.execute('CREATE DATABASE IF NOT EXISTS nba')
+
+    # for postgresql
+    if not database_exists(engine.url):
+    create_database(engine.url)
 
 
-    # Create a new database
-    engine.execute('CREATE DATABASE IF NOT EXISTS nba')
-
-    # Use nba database
-    engine.execute('USE nba') # Auto commits
+    # Use nba database (for MySQL)
+    #engine.execute('USE nba') # Auto commits
 
     # Insert into MySQL using pandas
     # If exist is set to replace so as to update the table to its current state in recent runs
     engine.execute('DROP TABLE IF EXISTS players')
-    data.to_sql('players', con=engine, index=False)
+    data.to_sql('players', con=engine, index=False, if_exists= 'replace')
 
     engine.dispose()

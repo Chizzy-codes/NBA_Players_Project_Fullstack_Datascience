@@ -1,9 +1,11 @@
 pandas
 sqlalchemy
-MySQLdb
+mysqlclient
 selenium
 matplotlib
 seaborn
 plotly
 beautifulsoup
 sqlite3
+psycopg2
+sqlalchemy_utils
