@@ -1,5 +1,7 @@
 # NBA_Players_Project_Fullstack_Datascience
 
+A Full-Stack Data Science Project implemented with data gotten from the NBA Website.
+
 In this project
 - I scraped "nba.com" using selenium, beautiful soup
 - Extracted, cleaned and structured the data i needed using python
