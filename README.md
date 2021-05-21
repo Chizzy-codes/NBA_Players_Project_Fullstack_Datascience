@@ -15,7 +15,7 @@ A Full-Stack Data Science Project implemented with data i got from the NBA Websi
 - Pulled the data from MySQL using pandas and ran an extensive data analysis on it in order to obtain useful insites
 - Used a machine learning model to identify outlier players in the league.
 
-## WORKFLOW SCHEDULING
+## DATA PIPELINE
 
 
 
