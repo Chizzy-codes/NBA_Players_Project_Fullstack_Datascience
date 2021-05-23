@@ -8,7 +8,8 @@
 8) Initialize the airflow db, start the web server and scheduler
 9) turn on the nba DAG
 
-10) you would also need to install MySQL
+10) you would also need to install MySQl or PostgreSQL; which ever you prefer
+
 11) To install MySQL on WSL (Ubuntu 20.04), which is what i am using as i am running my airflow using WSL2 rather than docker:
 
 Open your WSL terminal (ie. Ubuntu 20.04).
