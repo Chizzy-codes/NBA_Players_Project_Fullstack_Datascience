@@ -1,5 +1,6 @@
 sasl
 psycopg2
+whitenoise
 rauth
 alembic==1.5.8
 apache-airflow==2.0.2
