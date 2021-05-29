@@ -146,7 +146,7 @@ def etl(my_database):
     #engine = sal.create_engine(f'mysql+mysqldb://{username}:{password}@{host}') # add the port if your are not connecting via localhost
 
     # create engine PostgreSQL
-    engine = sal.create_engine(f'postgresql+psycopg2://ovkqluis:sQkC69fj9poc3mUnmZz5dAhvU0ZI7sHd@queenie.db.elephantsql.com/ovkqluis')
+    engine = sal.create_engine(f'postgresql+psycopg2://insert your database connection string here')
     
 
     # Create a new database MySQL
