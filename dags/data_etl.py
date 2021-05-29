@@ -29,7 +29,7 @@ def remove_spaces(x):
             try:
                 word = new[0]
             except:
-                word = 'nada'
+                word = 'N/A'
     return word
 
 
@@ -38,6 +38,8 @@ def correct_spelling(x):
         return 'Forward'
     elif x == 'Foward-Center':
         return 'Forward-Center'
+    elif x == 'Foward-Guard':
+        return 'Forward-Guard'
     else:
         return x
 
@@ -84,7 +86,6 @@ def etl(my_database):
     
     # remove the excess spaces in the team names
     data.team = data.team.apply(remove_spaces)
-    data = data[data['team']!='nada'].copy()
     
 
     # Replace rookie with 0
@@ -127,7 +128,7 @@ def etl(my_database):
     data.rpg = data.rpg.astype('float64')
 
     # Correct spellings in the position columm
-    data.position = data.position.apply(correct_spelling)
+    #data.position = data.position.apply(correct_spelling)
 
 
     # drop birth_date and draft
