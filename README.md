@@ -18,7 +18,7 @@ The third component extracts the most recent entry to the data lake, performs a 
 
 
 ## Machine Learning
-I also developed an outlier detection machine learning model to identify outlier players present in the database (Jupyter Notebook nbviewer link: https://nbviewer.jupyter.org/github/Chizzy-codes/NBA_Players_Project_Fullstack_Datascience/blob/master/jupyter_notebook/project_notebook.ipynb) 
+I also developed an outlier detection machine learning model to identify outlier players present in the database. I was also able to successfully predict the NBA Top Players. Out of my top 3 predictions, two of the players Nikola Jokic and Giannis Antetokounmpo took home awards at the end of the season. (Jupyter Notebook nbviewer link: https://nbviewer.jupyter.org/github/Chizzy-codes/NBA_Players_Project_Fullstack_Datascience/blob/master/jupyter_notebook/project_notebook.ipynb) 
 
 
 ## DATA PRODUCT
