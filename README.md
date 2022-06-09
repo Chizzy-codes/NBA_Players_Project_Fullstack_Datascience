@@ -24,4 +24,7 @@ I also developed an outlier detection machine learning model to identify outlier
 ## DATA PRODUCT
 The final product was an Apache Superset Dashboard which i published on Heroku. The dashboard provides users with an intuitive, interactive and simple one stop shop for finding out the most important information on the current active players in the NBA. Check it out here https://nba-superset.herokuapp.com/superset/dashboard/4/
 
+## Achievement
+As a result of completing this project, i ended up writing an article which is the guide on how to install apache superset on heroku on the internet.
+
 ### ENJOY!!!
