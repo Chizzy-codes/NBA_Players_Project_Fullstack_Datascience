@@ -27,4 +27,4 @@ The final product was an Apache Superset Dashboard which i published on Heroku. 
 ## Achievement
 As a result of completing this project, i ended up writing an article which is the guide on how to install apache superset on heroku on the internet.
 
-### ENJOY!!!
+### ENJOY!
